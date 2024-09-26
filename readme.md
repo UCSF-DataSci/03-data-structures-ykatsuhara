@@ -4,6 +4,7 @@
 	Your task:
 	1. Complete the get_quote_of_the_day() function
 	2. Set up a cron job to run this script daily at 8:00 AM and append the output to a file
+
 	**Output file:**
 
 	Hint: Look up `random.choice()` to select a random item from a list. You can use the `date` module to get the current date and set a seed for the random number generator.
@@ -11,6 +12,7 @@
 	Usage: `python word_frequency.py <input_file>`  
 	
 	Your task: Complete the word_frequency() function to count word frequencies sorted alphabetically. Run the script on 'alice_in_wonderland.txt'.
+
 	**A part of answer: "Word frequencies for 'alice_in_wonderland.txt':{"alice's": 11, 'adventures': 4, 'in': 351, 'wonderland': 2, 'by': 57, 'lewis': 1, 'carroll': 1, 'contents': 1, 'chapter': 24, 'i.': 2, 'down': 79, 'the': 1611, 'rabbi...."**
 	
 	Hints:
@@ -20,6 +22,7 @@
 3. **Maximum Product of 13 Adjacent Digits:** Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 	
 	Your task: Complete the find_greatest_product() function to solve the problem.
+	
 	**Answer: The greatest product of 13 adjacent digits is: 23514624000**
 	
 	Hints:
