@@ -22,9 +22,18 @@ import sys
 def word_frequency(text):
     frequencies = {} # Dictionary to store word frequencies
 
-    # Your code here
-    
+    text_converted = text.lower() # Ignore case
+    words = text_converted.split() # Split text into words
+
+    # Count frequency of each word
+    for word in words:
+        if word in frequencies:
+            frequencies[word] += 1
+        else:
+            frequencies[word] = 1
+
     return frequencies
+
 
 # Scaffold for opening a file and running word_frequency() on the contents
 if __name__ == "__main__":
