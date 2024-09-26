@@ -16,13 +16,22 @@ from datetime import date
 
 
 quotes = [
-    # Create a list of quotes here
+"Today's lunch is Sushi!",
+"Today's lunch is Ramen!",
+"Today's lunch is Onigiri",
+"Today's lunch is Yakitori",
+"You will skip lunch today.",
 ]
 
 def get_quote_of_the_day(quotes):
     todays_quote = None
 
-    # Your code here
+    # Get the ordinal number of today and set to the randomseed
+    today = date.today()
+    random.seed(today.toordinal()) 
+    
+    # Select random item.
+    todays_quote = random.choice(quotes)  
     
     return todays_quote
 
