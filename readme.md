@@ -1,8 +1,6 @@
 
-=======
 # Assignment
 
->>>>>>> 86483c206030b96d3165fc09a713aabd51753845
 1. **Daily Quote Generator:** Select a random quote for the day and prints it. Optional: The same quote should be generated for a given day.
 
 	Your task:
@@ -15,11 +13,9 @@
 2. **Word Frequency Counter:** Read a text file (example code included) and count the frequency of each word, ignoring case.
 	Usage: `python word_frequency.py <input_file>`  
 	
-=======
 	Your task: Complete the word_frequency() function to count word frequencies sorted alphabetically and limit to the first 20 words. Run the script on 'alice_in_wonderland.txt'.
 
 	**A part of answer: "Word frequencies for 'alice_in_wonderland.txt':{"alice's": 11, 'adventures': 4, 'in': 351, 'wonderland': 2, 'by': 57, 'lewis': 1, 'carroll': 1, 'contents': 1, 'chapter': 24, 'i.': 2, 'down': 79, 'the': 1611, 'rabbi...."**
->>>>>>> 86483c206030b96d3165fc09a713aabd51753845
 	
 	Hints:
 	- Use a dictionary to store word frequencies
