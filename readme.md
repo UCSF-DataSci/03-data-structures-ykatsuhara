@@ -7,7 +7,7 @@
 	1. Complete the get_quote_of_the_day() function
 	2. Print the crontab that would run this script daily at 8:00 AM and append the output to a file
 
-	**Output file:**
+	**Screenshot of the crontab and the output is in this repository.**
 
 	Hint: Look up `random.choice()` to select a random item from a list. You can use the `date` module to get the current date and set a seed for the random number generator.
 2. **Word Frequency Counter:** Read a text file (example code included) and count the frequency of each word, ignoring case.
@@ -15,7 +15,7 @@
 	
 	Your task: Complete the word_frequency() function to count word frequencies sorted alphabetically and limit to the first 20 words. Run the script on 'alice_in_wonderland.txt'.
 
-	**A part of answer: "Word frequencies for 'alice_in_wonderland.txt':{"alice's": 11, 'adventures': 4, 'in': 351, 'wonderland': 2, 'by': 57, 'lewis': 1, 'carroll': 1, 'contents': 1, 'chapter': 24, 'i.': 2, 'down': 79, 'the': 1611, 'rabbi...."**
+	**Answer:Word frequencies for 'alice_in_wonderland.txt':'--found: 1,'_we: 1,'miss: 1,'tis: 2,--_said: 1,--and: 2,--as: 1,--but: 1,--change: 1,--for: 1,--i: 1,--it: 1,--likely: 1,--mystery,: 1,--or: 1,--so: 2,--that: 1,--well: 1,--where's: 1,--yes,: 1**
 	
 	Hints:
 	- Use a dictionary to store word frequencies
