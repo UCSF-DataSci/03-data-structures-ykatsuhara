@@ -47,14 +47,16 @@ if __name__ == "__main__":
             text = file.read() # Read the entire file into a string
         
         frequencies = word_frequency(text)
-        
-        # Print results
-        for word, count in frequencies.items():
+
+        # Sort alphabetical order
+        sorted_frequencies = sorted(frequencies.items(), key=lambda item: item[0])
+
+        # Print first 20 words
+        print(f"Word frequencies for '{filename}':")
+        for word, count in sorted_frequencies[:20]:
             print(f"{word}: {count}")
+
     
     except FileNotFoundError:
         print(f"Error: File '{filename}' not found.")
         sys.exit(1)
-    
-    print(f"Word frequencies for '{filename}':")
-    print(frequencies)
